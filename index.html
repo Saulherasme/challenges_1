@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="contenido">
+    <nav class="nav-contenido">
+      <a href="#" class="logo"><img srcset="assets/images/logo.svg" alt="Logo"></a>
+      <button class="nav-toggle" aria-label="abrir menu"><img src="assets/images/icon-menu.svg"></button>
+      <ul class="nav-items">
+        <li class="nav-item"> <a class="link" aria-current="page" href="#">Home</a></li>
+        <li class="nav-item"><a class="link" href="#">New</a> </li>
+        <li class="nav-item"><a class="link" href="#">Popular</a></li>
+        <li class="nav-item"><a class="link">Trending</a></li>
+        <li class="nav-item"><a class="link">Categories</a></li>
+      </ul>
+    </nav>
+
+    <div class="principal">
+      <div class="centro">
+        <div>
+          <div class="centro-img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="assets/images/image-web-3-mobile.jpg">
+              <img src="assets/images/image-web-3-desktop.jpg" alt="centro">
+            </picture>
+          </div>
+
+          <div class="centro-texto">
+            <div class="contenedor-centro-texto-titulo">
+              <p class="centro-texto-titulo"> The Bright Future of <br> Web 3.0?</p>
+            </div>
+            <div class="contenedor-centro-texto-parrafo">
+              <p class="centro-texto-parrafo"> We dive into the next evolution of the web that claims to put the power
+                of
+                the platforms back into the
+                hands of the people. But is it really fulfilling its promise?</p>
+
+              <button class="boton">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="izquierda">
+        <h2>New</h2>
+        <p><strong>Hydrogen VS Electric Cars</strong>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr>
+        <p><strong>The Downsides of AI Artistry</strong>What are the possible adverse effects of on-demand AI image
+          generation?</p>
+        <hr>
+        <p><strong>Is VC Funding Drying Up?</strong>Private funding by VC firms is down 50% YOY. We take a look at
+          what
+          that means.</p>
+      </div>
+    </div>
+
+    <div class="final">
+      <ul class="final-lista">
+        <li class="final-lista-item">
+          <img src="assets/images/image-retro-pcs.jpg" alt="pc-retro">
+          <div>
+            <span>01</span>
+            <strong>Reviving Retro PCs</strong>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </li>
+        <li class="final-lista-item">
+          <img src="assets/images/image-top-laptops.jpg" alt="teclado">
+          <div>
+            <span>02</span>
+            <strong> Top 10 Laptops of 2022</strong>
+            <p>Our best picks for various needs and budgets.</p>
+        </li>
+        <li class="final-lista-item">
+          <img src="assets/images/image-gaming-growth.jpg" alt="control">
+          <div>
+            <span>03</span>
+            <strong>The Growth of Gaming</strong>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank ">Frontend Mentor</a>.
+      Coded by <a href="#"> SHG</a>.
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
